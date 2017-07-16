@@ -57,7 +57,7 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherV
         hum=mList.body().getHistory().getObservations().get(position).getHum();
         temp=mList.body().getHistory().getObservations().get(position).getTempm();
         pressure=mList.body().getHistory().getObservations().get(position).getPressurem();
-        // Display the guest name
+        // Display the  name
         holder.humTextView.setText(hum);
         holder.tempTextView.setText(temp);
         holder.tempTextView.setText(pressure);
